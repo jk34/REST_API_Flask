@@ -1,7 +1,7 @@
 # REST_API_Flask
 
-Ran Python scripts on Vagrant machine to startup web server listening on localhost port 5000. I then used Curl to send messages to this server and then receive HTTP responses of the requests.
-Then used Curl to send requests to Google and Foursquare API and received responses. The Google Maps Geocoding API takes in a string representation of a location and returns the latitude and longitude coordinates of it. 
+I ran Python scripts on Vagrant machine to startup web server listening on localhost port 5000. I then used Curl to send messages to this server and then receive HTTP responses of the requests.
+I then used Curl to send requests to Google and Foursquare API and received responses. The Google Maps Geocoding API takes in a string representation of a location and returns the latitude and longitude coordinates of it. 
 The Foursquare API finds a restaurant based on the latitude and longitude coordinates, city, and meal type of the user input
 Also, ran Python scripts to send requests to the Google API and Foursquare API. 
 
@@ -18,3 +18,7 @@ The models.py stores password hashes, verifies passwords, the User model, and HT
 This app also has a client-side application that logs in wn with Google and receives an authentication code. The client then sends this code to my server which then communicates with Google to get a token. Then, I create my own token and send that to the client to authenticate with my application. 
 
 Instead of creating a client-side application that sends the authorization code, there is the clientOAuth.html template in models.py that signs into Google and displays the authentication code
+
+I learned about all of this as part of the "Designing RESTful APIs" course offered by Udacity
+
+
